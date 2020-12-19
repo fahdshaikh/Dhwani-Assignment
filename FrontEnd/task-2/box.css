@@ -1,0 +1,37 @@
+* {
+    /* text-align: center; */
+    margin: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    max-width: 32%;
+    margin-top: 70px;
+    justify-items: center;
+}
+
+* {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box {
+    text-align: center;
+    padding: 100px;
+    margin: 15px;
+    z-index: 1;
+    background-color: #cfe2f3;
+    border: 1px solid black;
+}
+
+.box5 {
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    padding: 100px;
+    z-index: 1;
+    background-color: #cfe2f3;
+    border: 1px solid black;
+}
